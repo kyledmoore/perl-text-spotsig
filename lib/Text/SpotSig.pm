@@ -107,7 +107,7 @@ Text::SpotSig - Perl extension making SpotSigs
   my $text = "the quick brown fox jumped over the lazy dog";
   my $sigs = $ss->analyze($text);
 
-  print "Found: " scalar(@$sigs) . " total sigs in the text\n";
+  print "Found: " . scalar(@$sigs) . " total sigs in the text\n";
 
 =head1 DESCRIPTION
 
